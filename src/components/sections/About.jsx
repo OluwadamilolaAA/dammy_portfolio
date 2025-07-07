@@ -2,12 +2,12 @@ import { ReviewOnScroll } from "../ReviewOnScroll";
 export const About = () => {
   const frontendSkills = [
     "react",
-    "Vue",
+    "css",
     "TypeScript",
     "TailwindCSS",
-    "Svelter",
+    "javascript",
   ];
-  const backendSkills = ["Node.js", "Python", "AWS", "MonogoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "express", "MonogoDB", "GraphQL"];
   return (
     <section
       id="about"

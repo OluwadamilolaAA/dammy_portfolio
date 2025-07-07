@@ -25,13 +25,13 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex items-center justify-center py-20">
+    <section id="contact" className="min-h-screen py-20 bg-gray-900">
       <ReviewOnScroll>
-        <div className="px-4 max-w-md w-full mx-auto"> {/* ✅ Fixed width */}
+        <div className="px-4 max-w-2xl w-full mx-auto"> {/* ✅ Fixed width */}
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
-          <form onSubmit={handleSubmit} className="space-y-6"> {/* ✅ Added onSubmit */}
+          <form onSubmit={handleSubmit} className="space-y-6 w-full "> {/* ✅ Added onSubmit */}
             <div className="relative">
               <input
                 type="text"
@@ -40,7 +40,7 @@ export const Contact = () => {
                 required
                 value={formData.name}
                 onChange={(e) => setFormData(prev => ({ ...prev, name: e.target.value }))}
-                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 space-x-6"
                 placeholder="Your Name..."
               />
             </div>

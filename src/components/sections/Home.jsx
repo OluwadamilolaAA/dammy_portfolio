@@ -9,11 +9,11 @@ export const Home = () => {
       <ReviewOnScroll>
       <div className="text-center z-10 px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-          Hi, I'm Dee tech
+          Hi, I'm Oluwadamilola
         </h1>
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
           I'm a web developer who loves crafting clean, scaleable social
-          appilication. My goal is to buil solution that offer both exceptional
+          appilication. My goal is to build solution that offer both exceptional
           performance and delightful user interface
         </p>
         <div className="flex justify-center space-x-4">
